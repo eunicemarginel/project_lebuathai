@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import Map from '../components/Map';
 
 const ContactPage = () => {
   return (
@@ -10,7 +9,6 @@ const ContactPage = () => {
       <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
       <p>Email: <a href="mailto:info@restaurant.com">info@restaurant.com</a></p>
       <ContactForm />
-      <Map />
     </div>
   );
 };
