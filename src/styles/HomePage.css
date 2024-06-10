@@ -1,0 +1,60 @@
+/* src/styles/HomePage.css */
+
+/* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+    color: #fff4d2;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensure content spans the full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Content */
+.content {
+    flex: 1; /* Allow content to expand to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure content is centered */
+    padding: 250px; /* Adjust padding for mobile view */
+    background: url('../assets/bg4.jpg') center/cover no-repeat; /* Add background image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content h1 {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+    color: #fff4d2;
+}
+
+.content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffddd2;
+}
+
+.reservation-button {
+    background-color: #dd477f;
+    color: #fff4d2;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reservation-button:hover {
+    background-color: #f19eb8;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

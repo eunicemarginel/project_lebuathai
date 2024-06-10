@@ -1,0 +1,41 @@
+/* Remove list styles */
+.footer-content ul,
+.social-icons {
+  list-style: none;
+  padding: 0;
+
+}
+
+/* Style individual list items */
+.footer-content ul li,
+.social-icons li {
+  display: inline-block; /* Display links horizontally */
+  margin-right: 20px; /* Adjust spacing between each link */
+  font-size: 12px;
+}
+
+/* Style links */
+.footer-content ul li a,
+.social-icons a {
+  color: #fff4d2; /* Adjust link color */
+  text-decoration: none;
+  transition: color 0.2s ease; /* Add transition effect */
+}
+
+/* Change link color on hover */
+.footer-content ul li a:hover,
+.social-icons a:hover {
+  color: #f19eb8; /* Change link color on hover */
+}
+
+/* Remove margin from last link */
+.footer-content ul li:last-child,
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+/* Adjust the styles of social media icons */
+.social-icons a {
+  font-size: 20px; /* Adjust icon size as needed */
+  margin-right: 10px; /* Add space between icons */
+}

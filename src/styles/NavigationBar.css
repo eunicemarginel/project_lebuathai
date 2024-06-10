@@ -1,0 +1,95 @@
+/* src/components/NavigationBar.css */
+.navbar {
+  background-color: #56504B;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 60px; /* Adjust the height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  margin-left: 10px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Added */
+  width: 100%; /* Ensure container takes full width */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #FFF4D2;
+  margin: 3px 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links li:last-child {
+  margin-right: 10px;
+}
+
+.nav-links a {
+  color: #FFF4D2;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #DD477F;
+}
+
+.whatsapp-icon {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack logo and menu vertically */
+    align-items: center; /* Align items to the start */
+    justify-content: space-between; /* Adjusted to space between */
+  }
+
+  .nav-links {
+    display: none; /* Initially hide the menu links */
+    width: 100%; /* Full width */
+    padding: 1rem 0; /* Add padding for spacing */
+    background-color: #56504B; /* Background color */
+  }
+
+  .nav-links.open {
+    display: flex; /* Display the menu links when open */
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start; /* Align links to the start */
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #FFF4D2;
+    margin: 3px 0;
+  }
+}
