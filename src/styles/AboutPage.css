@@ -26,8 +26,9 @@
   
   .about-content {
     max-width: 800px;
-    padding: 5px;
-    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
     background-color: rgba(0, 0, 0, 0.7); /* 0.8 is the opacity level */
     border-radius: 10px;
   }
