@@ -29,7 +29,7 @@ const FeaturedDishes = () => {
           </div>
         ))}
       </div>
-      <a href="/menu" className="menu-button">Check the Our Menu</a>
+      <a href="/menu" className="menu-button">Check Our Menu</a>
     </div>
   );
 };
