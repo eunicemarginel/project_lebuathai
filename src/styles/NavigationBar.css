@@ -27,7 +27,7 @@
 .bar {
   width: 25px;
   height: 3px;
-  background-color: #FFF4D2;
+  background-color: #091235;
   margin: 3px 0;
 }
 
@@ -79,7 +79,7 @@
     display: none; /* Initially hide the menu links */
     width: 100%; /* Full width */
     padding: 1rem 0; /* Add padding for spacing */
-    background-color: #56504B; /* Background color */
+    background-color: #091235; /* Background color */
   }
 
   .nav-links.open {
@@ -91,7 +91,7 @@
   .bar {
     width: 25px;
     height: 3px;
-    background-color: #FFF4D2;
+    background-color: #FFF;
     margin: 3px 0;
   }
 }
