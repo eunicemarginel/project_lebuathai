@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className="content">
         <h1>Welcome to Lebua Thai</h1>
         <p>Experience the authentic taste of Thailand's best!</p>
-        <a href="/reservation" className="reservation-button">Reserve a table</a>
+        <a href="/reservation" className="reservation-button">Reserve a Table</a>
       </div>
       <FeaturedDishes />
       <Footer />

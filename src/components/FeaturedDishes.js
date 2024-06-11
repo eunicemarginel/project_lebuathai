@@ -6,9 +6,9 @@ import dish3 from '../assets/dish3.jpg';
 
 const FeaturedDishes = () => {
   const dishes = [
-    { name: 'Dish 1', description: 'Description of dish 1', image: dish1 },
-    { name: 'Dish 2', description: 'Description of dish 2', image: dish2 },
-    { name: 'Dish 3', description: 'Description of dish 3', image: dish3 },
+    { name: 'Steamed Curry Seafood', description: 'A delectable blend of fresh seafood simmered in a rich and aromatic curry, served inside a tender young coconut for an unforgettable culinary experience.', image: dish1 },
+    { name: 'Steamed Sea Bass', description: ' perfectly steamed sea bass infused with zesty lime and fiery chilli, creating a harmonious balance of flavors that tantalize the taste buds', image: dish2 },
+    { name: 'Tom Yum Seafood', description: ' classic Thai soup bursting with the vibrant flavors of lemongrass, lime, and a medley of fresh seafood, offering a delightful combination of spicy, sour, and savory notes.', image: dish3 },
   ];
 
   return (
@@ -29,6 +29,7 @@ const FeaturedDishes = () => {
           </div>
         ))}
       </div>
+      <a href="/menu" className="menu-button">Check the Our Menu</a>
     </div>
   );
 };

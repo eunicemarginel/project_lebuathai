@@ -28,25 +28,25 @@
     max-width: 800px;
     padding: 5px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6); /* 0.8 is the opacity level */
+    background-color: rgba(0, 0, 0, 0.7); /* 0.8 is the opacity level */
     border-radius: 10px;
   }
   
   .about-content h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #dd477f;
+    color: #ff5500;
   }
   
   .about-content p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #fff4d2;
+    color: #fff;
   }
   
   /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #091235;
     color: #fff;
     padding: 20px;
     text-align: center;

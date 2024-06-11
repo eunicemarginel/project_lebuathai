@@ -1,19 +1,23 @@
 /* src/styles/global.css */
+* {
+    font-family: "Philosopher", sans-serif;
+}
+
 body {
     background-color: #FFF;
-    color: #56504B;
+    color: #365486;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   a {
-    color: #F19EB8;
+    color: #FFF;
     text-decoration: none;
   }
   
   a:hover {
-    color: #DD477F;
+    color: #00C4FF;
   }
   
   nav {

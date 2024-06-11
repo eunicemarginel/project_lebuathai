@@ -1,0 +1,17 @@
+/* StarRating.css */
+.star-rating {
+    display: inline-block;
+  }
+  
+  .star {
+    color: #ffc107; /* Change star color */
+  }
+  
+  .star.filled::before {
+    content: '\2605'; /* Unicode character for filled star */
+  }
+  
+  .star.empty::before {
+    content: '\2606'; /* Unicode character for empty star */
+  }
+  

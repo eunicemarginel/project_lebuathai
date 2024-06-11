@@ -1,6 +1,6 @@
 /* src/styles/MenuPage.css */
 .menu {
-    background-color: #fff4d2;
+    background-color: #091235;
 }
 
 .menu-container {
@@ -8,7 +8,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #fff4d2;
+    background-color: #091235;
 }
 
 .slick-slide img {
@@ -26,7 +26,7 @@
 
 h1 {
     margin-bottom: 20px;
-    color: #dd477f;
+    color: #ff5500;
 }
 
 /* Custom Arrow Styling */
@@ -71,7 +71,7 @@ h1 {
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #091235;
     color: #fff;
     padding: 20px;
     text-align: center;

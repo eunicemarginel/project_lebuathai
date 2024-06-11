@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Footer.css'; // Import your custom CSS for the footer
-import logo from '../assets/logo.png'; // Import the logo image
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,11 +12,6 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           
-          {/* <div className="footer-column">
-            <Link to="/" className="footer-logo">
-              <img src={logo} alt="Lebua Thai" className="logo" />
-            </Link>
-          </div> */}
           <div className="footer-column">
             <div className="social-icons">
                 <a href="https://www.facebook.com/profile.php?id=61556215584916" className="social-icon"><FontAwesomeIcon icon={faFacebookF} /></a>
