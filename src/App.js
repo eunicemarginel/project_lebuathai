@@ -8,9 +8,7 @@ import ContactPage from './pages/ContactPage';
 import ReservationPage from './pages/ReservationPage';
 import OperatingHoursPage from './pages/OperatingHoursPage';
 import GalleryPage from './pages/GalleryPage';
-import SpecialsEventsPage from './pages/SpecialsEventsPage';
 import TestimonialsPage from './pages/TestimonialsPage';
-import BlogPage from './pages/BlogPage';
 import LegalPage from './pages/LegalPage';
 import NavigationBar from './components/NavigationBar';
 
@@ -27,9 +25,7 @@ const App = () => {
         <Route path="/reservation" element={<ReservationPage />} />
         <Route path="/hours" element={<OperatingHoursPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/specials-events" element={<SpecialsEventsPage />} />
         <Route path="/testimonials" element={<TestimonialsPage />} />
-        <Route path="/blog" element={<BlogPage />} />
         <Route path="/legal" element={<LegalPage />} />
       </Routes>
       

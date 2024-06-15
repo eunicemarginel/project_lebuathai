@@ -1,0 +1,40 @@
+/* ContactPage.css */
+.contact-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .contact-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff5500;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: #ff5500;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+.footer {
+    background-color: #091235;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

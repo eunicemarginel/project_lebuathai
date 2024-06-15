@@ -1,17 +1,16 @@
-/* StarRating.css */
 .star-rating {
     display: inline-block;
   }
   
   .star {
-    color: #ffc107; /* Change star color */
+    font-size: 24px; /* Adjust the size of the stars */
   }
   
-  .star.filled::before {
-    content: '\2605'; /* Unicode character for filled star */
+  .star.filled {
+    color: #ffc107; /* Change star color for filled stars */
   }
   
-  .star.empty::before {
-    content: '\2606'; /* Unicode character for empty star */
+  .star.empty {
+    color: #ddd; /* Change star color for empty stars */
   }
   

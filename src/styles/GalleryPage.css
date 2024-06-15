@@ -1,0 +1,44 @@
+.gallery-container {
+    padding: 20px;
+  }
+
+  .gallery-container h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add some bottom margin */
+    text-align: center;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items */
+  }
+  
+  .image-wrapper {
+    width: 30%; /* Adjust width for desktop view */
+    margin: 1%;
+    position: relative;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Footer */
+.footer {
+    background-color: #091235;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+  
+  @media (max-width: 768px) {
+    .image-wrapper {
+      width: 100%; /* Full width on mobile */
+    }
+  }
+  
