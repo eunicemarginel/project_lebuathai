@@ -11,6 +11,7 @@ import GalleryPage from './pages/GalleryPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import LegalPage from './pages/LegalPage';
 import NavigationBar from './components/NavigationBar';
+import PromotionPage from './pages/PromotionPage';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/testimonials" element={<TestimonialsPage />} />
         <Route path="/legal" element={<LegalPage />} />
+        <Route path="/promotion" element={<PromotionPage />} />
       </Routes>
       
     </Router>

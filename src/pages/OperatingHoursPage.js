@@ -12,12 +12,12 @@ const OperatingHoursPage = () => {
       <h1>Operating Hours</h1>
       <div className="hours">
         <div className="weekday-hours">
-          <h2>Monday - Friday</h2>
-          <p>11:00 AM - 10:00 PM</p>
+          <h2>Monday - Sunday</h2>
+          <p>11:30 AM - 10:00 PM</p>
         </div>
         <div className="weekend-hours">
-          <h2>Saturday - Sunday</h2>
-          <p>9:00 AM - 11:00 PM</p>
+          <h2>Last Orders</h2>
+          <p>9:00 PM</p>
         </div>
       </div>
       <div className="holiday-hours">

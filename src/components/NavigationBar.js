@@ -30,6 +30,7 @@ const NavigationBar = () => {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/menu">Menu</Link></li>
         <li><Link to="/reservation">Reservation</Link></li>
+        <li><Link to="/promotion">Promotions</Link></li>
         <li><Link to="/testimonials">Reviews</Link></li>
         <li><a href="https://wa.me/90079953" className="whatsapp-link"><FontAwesomeIcon icon={faWhatsapp} className="whatsapp-icon" /></a></li>
       </ul>

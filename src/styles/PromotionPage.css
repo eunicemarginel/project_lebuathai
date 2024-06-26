@@ -1,0 +1,58 @@
+.promotion-page-container {
+    padding: 50px;
+    text-align: center;
+
+  }
+  
+  .promotion-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .promotion-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .promotion-section {
+    margin-bottom: 30px;
+  }
+  
+  .promotion-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .promotion-section p {
+    line-height: 1.6;
+  }
+
+  .social-media {
+    margin-top: 20px;
+}
+
+.social-media h2 {
+    color: #ff5500;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #ff5500;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    color: #091235;
+}
+  
+  /* Footer */
+.footer {
+    background-color: #091235;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

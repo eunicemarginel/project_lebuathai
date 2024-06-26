@@ -17,6 +17,11 @@ import image8 from '../assets/menu8.jpg';
 import image9 from '../assets/menu9.jpg';
 import image10 from '../assets/menu10.jpg';
 import image11 from '../assets/menu11.jpg';
+import image12 from '../assets/menu12.jpg';
+import image13 from '../assets/menu13.jpg';
+import image14 from '../assets/menu14.jpg';
+import image15 from '../assets/menu15.jpg';
+import image16 from '../assets/menu16.jpg';
 
 const MenuPage = () => {
   // Slider settings
@@ -42,6 +47,11 @@ const MenuPage = () => {
     image9,
     image10,
     image11,
+    image12,
+    image13,
+    image14,
+    image15,
+    image16,
   ];
 
   return (
