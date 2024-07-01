@@ -12,17 +12,24 @@ const PromotionPage = () => {
         <h1 className="promotion-title">Promotions!</h1>
 
         <div className="promotion-section">
-          <h2>Wine Dinner Event</h2>
-          <p>
-          We are excited to host a Wine Dinner Event once a month, accommodating up to 40 guests. Check out our exquisite wine list on the menu page. For the latest updates, please visit our social media page. Alternatively, you can contact us directly through the information provided on our contact page.
-          </p>
+            <h2>Wine Dinner Event</h2>
+            <p>
+            We are excited to host a Wine Dinner Event once a month, accommodating up to 40 guests. Check out our exquisite wine list on the menu page. For the latest updates, please visit our social media page. Alternatively, you can contact us directly through the information provided on our contact page.
+            </p>
         </div>
 
         <div className="promotion-section">
-          <h2>Buffet Night</h2>
-          <p>
-          Join us every Wednesday for a delightful Buffet selection, featuring a variety of Thailand's finest cuisine, seafood dishes, and more. Explore our Buffet menu on our menu page. For more details and reservations, visit our social media platforms. We also host Birthday Celebrations, Company Events, and more! Contact us to learn about our upcoming promotions.
-          </p>
+            <h2>Buffet Night</h2>
+            <p>
+            Join us every Wednesday for a delightful Buffet selection, featuring a variety of Thailand's finest cuisine, seafood dishes, and more. Explore our Buffet menu on our menu page. For more details and reservations, visit our social media platforms. Contact us to learn about our upcoming promotions.
+            </p>
+        </div>
+
+        <div className="promotion-section">
+            <h2>Catering Services</h2>
+            <p>
+            We are delighted to offer catering services for a variety of occasions, including birthday celebrations, company events, and more. Our customizable menus feature authentic Thai dishes prepared by our experienced chefs. Whether you're planning an intimate gathering or a large-scale event, our catering team ensures a memorable culinary experience for you and your guests. For inquiries and bookings, please contact us directly via the information provided on our contact page.
+            </p>
         </div>
       </div>
 
