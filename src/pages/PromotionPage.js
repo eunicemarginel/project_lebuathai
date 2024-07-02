@@ -24,13 +24,6 @@ const PromotionPage = () => {
             Join us every Wednesday for a delightful Buffet selection, featuring a variety of Thailand's finest cuisine, seafood dishes, and more. Explore our Buffet menu on our menu page. For more details and reservations, visit our social media platforms. Contact us to learn about our upcoming promotions.
             </p>
         </div>
-
-        <div className="promotion-section">
-            <h2>Catering Services</h2>
-            <p>
-            We are delighted to offer catering services for a variety of occasions, including birthday celebrations, company events, and more. Our customizable menus feature authentic Thai dishes prepared by our experienced chefs. Whether you're planning an intimate gathering or a large-scale event, our catering team ensures a memorable culinary experience for you and your guests. For inquiries and bookings, please contact us directly via the information provided on our contact page.
-            </p>
-        </div>
       </div>
 
       <div className="social-media">
