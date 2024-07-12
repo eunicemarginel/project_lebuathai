@@ -21,7 +21,7 @@ const PromotionPage = () => {
         <div className="promotion-section">
             <h2>Buffet Night</h2>
             <p>
-            Join us every Wednesday for a delightful Buffet selection, featuring a variety of Thailand's finest cuisine, and more. Explore our Buffet menu on our menu page. For more details and reservations, visit our social media platforms. Contact us to learn about our upcoming promotions.
+            Join us every Wednesday for a delightful Buffet selection, featuring a variety of Thailand's finest cuisine and more. Explore our Buffet menu on our menu page. For more details and reservations, visit our social media platforms. Contact us to learn about our upcoming promotions.
             </p>
         </div>
       </div>
