@@ -1,10 +1,23 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import '../styles/ContactForm.css';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+
+  const onSubmit = (data) => {
+    emailjs.send(
+      'service_2oouyls',  // Service ID from EmailJS
+      'template_contact us', // Template ID from EmailJS
+      data,
+      'Lebua Thai Gmail'      // User ID from EmailJS
+    ).then((response) => {
+      console.log('Email sent successfully', response.status, response.text);
+    }).catch((error) => {
+      console.error('Failed to send email', error);
+    });
+  };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
