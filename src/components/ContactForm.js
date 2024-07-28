@@ -11,7 +11,7 @@ const ContactForm = () => {
   const onSubmit = (data) => {
     emailjs.send(
       'service_2oouyls',  // Service ID from EmailJS
-      'template_contact_us', // Template ID from EmailJS (use underscores instead of spaces)
+      'template_contact us', // Template ID from EmailJS (use underscores instead of spaces)
       data,
       'Byf2QoRp1ipifz7D7'      // User ID from EmailJS
     ).then((response) => {
