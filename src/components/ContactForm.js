@@ -11,9 +11,9 @@ const ContactForm = () => {
   const onSubmit = (data) => {
     emailjs.send(
       'service_2oouyls',  // Service ID from EmailJS
-      'template_contact_us', // Template ID from EmailJS (replace spaces with underscores if needed)
+      'template_contact us', // Template ID from EmailJS
       data,
-      'Lebua_Thai_Gmail'      // User ID from EmailJS (replace spaces with underscores if needed)
+      'Lebua Thai Gmail'      // User ID from EmailJS
     ).then((response) => {
       console.log('Email sent successfully', response.status, response.text);
       setMessage('Thank you for reaching out! We will get back to you soon.');
