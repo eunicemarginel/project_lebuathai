@@ -13,7 +13,7 @@ const ContactForm = () => {
       'service_2oouyls',  // Service ID from EmailJS
       'template_contact us', // Template ID from EmailJS
       data,
-      'Lebua Thai Gmail'      // User ID from EmailJS
+      'Byf2QoRp1ipifz7D7'      // User ID from EmailJS
     ).then((response) => {
       console.log('Email sent successfully', response.status, response.text);
       setMessage('Thank you for reaching out! We will get back to you soon.');
